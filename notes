@@ -1,0 +1,8 @@
+We will use a channel layer that uses Redis as its backing store. To start a Redis server on port 6379, run the following command:
+
+$ docker run -p 6379:6379 -d redis:2.8
+
+
+For secure websockets we need to accept secure connection with i.e. nginx (reverse proxy?) and forward that secure connection to daphne port
+
+
